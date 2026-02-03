@@ -1,0 +1,54 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Build directories
+target/
+build/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Upload directories
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Package files
+*.jar
+*.war
+*.ear
+!**/src/main/resources/*.jar
+
+# Application specific
+application-local.properties
